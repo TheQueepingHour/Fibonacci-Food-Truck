@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-family: 'Skranji', cursive;
+    font-size: 48px;
+    color: #d47272;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #bf601d;
+    margin: 20px;
+    padding: 20px;
+  }
+  h3, h4 {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    color: Red;
+    margin: 10px;
+  }
+  a {
+    color: white;
+    text-decoration: bold;
+  }
+  .nav {
+    background-color: red;
+    font-family: 'Quicksand';
+    color: white;
+    padding: 1px;
+    margin: 0;
+  }
+  .naviMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  .pageHead {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 50px;
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    width: 225px;
+    padding: 15px;
+    border: 8px solid #d47272;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.75);
+  }
+  .logoImg {
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .titleHead {
+    width: 50%;
+  }
+  #aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccb18d;
+    min-height: 500px;
+    padding: 2% 0;
+    flex-direction: column;
+  }
+  .aboutCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width:  100%;
+    margin: 2% 0;
+  }
+  .aboutHead {
+    text-align: left;
+    flex: 1;
+    font-family: 'Raleway';
+    font-weight: bold;
+    max-width: 100%;
+    margin: 1% 2%;
+  }
+  .aboutHead p {
+    margin: 0;
+    font-size: 1.5vw;
+    line-height: 1.8;
+  }
+  .aboutImg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-right: 1%;
+  }
+  .imgSize {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+  }
+  #qMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+    margin: 0;
+    background-color: beige;
+  }
+  .quartHead {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 15px;
+  }
+  .qHead {
+    line-height: 30px;
+  }
+  .quartMenus {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: initial;
+  }
+  .wrapMenu, .sideMenu {
+    flex: 1;
+    margin: 0 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 2px dotted rgba(204, 177, 141, 0.8);
+    border-radius: 100px;
+  }
+  .menuHead {
+    font-size: 32px;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+  .menuItems {
+    font-family: 'Englebert', sans-serif;
+    font-size: 18px;
+    color: #153461;
+  }
+  .tortillaChoice {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+  }
+  #mathFavs {
+    background-color: #f0bc78;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .mathFav {
+    font-family: 'Raleway';
+    font-size: 26px;
+    text-align: center;
+    max-width: 80%;
+  }
+  .mathPara {
+    padding: 25px;
+  }
+  .galleryImgs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0bc78;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .galImgs2 {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  .galImgs {
+    border: 1px solid black;
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+  #locationHours {
+    background-color: #b55c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+  }
+  .hoursLoc {
+    background-color: #ffd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    padding: 1%;
+    margin: auto;
+    border: 2px solid #ffd9d9;
+    border-radius: 10px;
+    text-align: flex-start;
+  }
+  .locImg {
+    display: flex;
+    max-width: 100%
+  }
+  .locHours {
+    padding: 10px;
+    max-width: 60%;
+  }
+  #loc, #hours {
+    font-family: 'Quicksand';
+    font-weight: 900;
+    font-size: 1vw;
+    max-width: 100%;
+  }
+  #loc address {
+    text-align: center;
+    color: #AA23FF;
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin: 1% 0;
+  }
+  #hours li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    margin-bottom: 1%;
+    color: #AA23FF;
+  }
+  .fib {
+    text-align: center;
+    font-family: 'Skranji';
+    padding: 5px;
+    background-color: gold;
+  }
+  .iconImg {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+  .footer {
+    background-color: gold;
+  }
+  .footIcons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .footPara {
+    display: flex;
+    justify-content: center;
+  }
